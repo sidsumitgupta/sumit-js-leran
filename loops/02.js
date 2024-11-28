@@ -15,3 +15,29 @@ for (const hey of say) {
 
 //maps 
 
+const map = new Map()
+map.set('IN',"INDIA")
+map.set('ENG',"EMGLAND")
+map.set('fr',"france")
+
+console.log(map);
+for (const key of map) {
+    console.log(key);
+    
+    
+}
+
+const myobj = {
+    js: "java",
+    ls: "loops",
+    key:"keys"
+
+}
+for (const key in myobj) {
+     
+        console.log(`${key} shortcut of ${myobj[key]}`);
+        
+        
+    
+}
+
